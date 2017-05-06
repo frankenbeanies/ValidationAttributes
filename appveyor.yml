@@ -1,0 +1,11 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+before_build:
+- cmd: nuget restore Frankenbeanies.ValidationAttributes.sln
+build:
+  project: Frankenbeanies.ValidationAttributes.sln
+  publish_wap_xcopy: true
+  verbosity: minimal
+test:
+  assemblies:
+    - Frankenbeanies.ValidationAttributes.Tests.dll
