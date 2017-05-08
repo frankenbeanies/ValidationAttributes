@@ -15,6 +15,12 @@ namespace Frankenbeanies.ValidationAttributes.Tests
         }
 
         [Fact]
+        public void NotEmptyAttribute_IsValid_Null_ReturnsTrue()
+        {
+            Assert.True(GetSut().IsValid(null));
+        }
+
+        [Fact]
         public void NotEmptyAttribute_IsValid_NotICollection_Throws()
         {
             Assert.Throws<InvalidOperationException>(() => GetSut().IsValid(new { }));

@@ -20,6 +20,8 @@ namespace Frankenbeanies.ValidationAttributes
 #endif
         override bool IsValid(object values)
         {
+            if (values == null) return true; //checking if values has been set is the job of the RequiredAttribute, not this one. 
+
             if (!(values is ICollection)) throw new InvalidOperationException("NotEmptyAttribute requires an ICollection");
 
             if ((values as ICollection).Count == 0) return false;
