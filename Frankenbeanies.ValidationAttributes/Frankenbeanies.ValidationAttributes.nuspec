@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Frankenbeanies.ValidationAttributes</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Frankenbeanies.ValidationAttributes</title>
     <authors>frankenbeanies</authors>
     <owners>frankenbeanies</owners>
@@ -10,11 +10,11 @@
     <projectUrl>https://github.com/frankenbeanies/ValidationAttributes</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Attributes for validation objects. Meant to compliment System.ComponentModel.DataAnnotations</description>
-    <releaseNotes>Initial Release</releaseNotes>
+    <releaseNotes>Moved Target Framework to .NET 4.5</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>C# Validation Attributes ValidationAttributes</tags>
   </metadata>
   <files>
-    <file src="bin\Release\Frankenbeanies.ValidationAttributes.dll" target="lib\net452\Frankenbeanies.ValidationAttributes.dll" />
+    <file src="bin\Release\Frankenbeanies.ValidationAttributes.dll" target="lib\net45\Frankenbeanies.ValidationAttributes.dll" />
   </files>
 </package>
