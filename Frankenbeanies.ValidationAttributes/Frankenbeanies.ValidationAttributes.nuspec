@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Frankenbeanies.ValidationAttributes</id>
+    <version>1.0.0</version>
+    <title>Frankenbeanies.ValidationAttributes</title>
+    <authors>frankenbeanies</authors>
+    <owners>frankenbeanies</owners>
+    <licenseUrl>https://github.com/frankenbeanies/ValidationAttributes/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/frankenbeanies/ValidationAttributes</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Attributes for validation objects. Meant to compliment System.ComponentModel.DataAnnotations</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>C# Validation Attributes ValidationAttributes</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Frankenbeanies.ValidationAttributes.dll" target="lib\net452\Frankenbeanies.ValidationAttributes.dll" />
+  </files>
+</package>
