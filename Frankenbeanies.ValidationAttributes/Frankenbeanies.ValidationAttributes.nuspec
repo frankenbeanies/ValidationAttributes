@@ -15,6 +15,6 @@
     <tags>C# Validation Attributes ValidationAttributes</tags>
   </metadata>
   <files>
-    <file src="bin\Release\Frankenbeanies.ValidationAttributes.dll" target="lib\net45\Frankenbeanies.ValidationAttributes.dll" />
+    <file src="bin\Debug\Frankenbeanies.ValidationAttributes.dll" target="lib\net45\Frankenbeanies.ValidationAttributes.dll" />
   </files>
 </package>
