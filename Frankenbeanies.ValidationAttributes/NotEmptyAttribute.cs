@@ -8,10 +8,11 @@ using System.Threading.Tasks;
 
 namespace Frankenbeanies.ValidationAttributes
 {
-    /// <summary>
-    /// Determines whether or not a list is empty
-    /// </summary>
-    public class NotEmptyAttribute : ValidationAttribute
+  /// <summary>
+  /// Determines whether or not a list is empty
+  /// </summary>
+  [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false)]
+  public class NotEmptyAttribute : ValidationAttribute
     {
 #if SILVERLIGHT
         internal

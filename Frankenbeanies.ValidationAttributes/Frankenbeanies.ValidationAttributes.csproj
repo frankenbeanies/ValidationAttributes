@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StringMapsToEnumAttribute.cs" />
     <Compile Include="ListRangeAttribute.cs" />
     <Compile Include="NotEmptyAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
