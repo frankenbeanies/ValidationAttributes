@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Frankenbeanies.ValidationAttributes</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>Frankenbeanies.ValidationAttributes</title>
     <authors>frankenbeanies</authors>
     <owners>frankenbeanies</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/frankenbeanies/ValidationAttributes</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Attributes for validation objects. Meant to compliment System.ComponentModel.DataAnnotations</description>
-    <releaseNotes>Moved Target Framework to .NET 4.5</releaseNotes>
+    <releaseNotes>Added StringMapsToEnumAttribute</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>C# Validation Attributes ValidationAttributes</tags>
   </metadata>
