@@ -74,6 +74,7 @@
     <Compile Include="ListRangeAttributeTests.cs" />
     <Compile Include="NotEmptyAttributeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringMapsToEnumAttributeTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
